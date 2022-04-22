@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&family=Oswald:wght@700&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+header{
+    padding: 15px 0;
+    background-color: #F5F5F6;
+}
+header nav .nav{
+    list-style: none;
+    display: flex;
+}
+header nav .nav li{
+    padding-left: 30px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #959BA4;
+    cursor: pointer;
+}
+header nav .nav .bold{
+    color: #000000;
+}
+header nav button{
+    width: 58px;
+    height: 33px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 11px;
+    cursor: pointer;
+}
+nav img{
+    object-fit: contain;
+    cursor: pointer;
+}
+/*section*/
+section{
+    width: 72%;
+    margin-left: auto;
+}
+.two{
+    display: flex;
+    gap: 90px;
+}
+section ul{
+    list-style: none;
+    display: flex; 
+}
+section ul li{
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #E5E5E5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C6C6C6;
+    cursor: pointer;
+}
+section ul li:hover{
+    background-color: #833AE0;
+    color: #FFFFFF;
+}
+section ul li.selected{
+    background-color: #833AE0;
+    color: #FFFFFF;
+}
+section ul li:nth-child(1),:nth-child(2),:nth-child(3){
+    border-right: none;
+}
+section h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin: 50px 0;
+}
+section .two input{
+    width: 257px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+}
+section .two .int{
+    height: 100px;
+    border: 1px solid #E5E5E5;
+}
+section .two h4{
+    width: 120px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #9F9F9F;
+}
+section p{
+    font-size: 12px;
+    margin-top: 30px;
+    color: grey;
+}
